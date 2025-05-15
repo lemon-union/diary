@@ -1,0 +1,5 @@
+/* Fix the display error */
+
+sub, sup {
+    font-size: 75% !important;
+}
