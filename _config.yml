@@ -8,7 +8,7 @@ description: >
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://blog.sherbetlemon.org'
+url:              'https://diary.sherbetlemon.org'
 baseurl:          '/'
 rss:              RSS
 
@@ -74,3 +74,9 @@ plugins:
   - jekyll-feed
   - jekyll-readme-index
   - jemoji
+
+extra_header_js:
+  - https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js
+
+extra_footer_js:
+  - assests/gitbook/minipen.js
