@@ -47,9 +47,7 @@ function verifyPassword() {
         if (document.body) {
             observer.disconnect(); // 停止观察器
 
-            const container = document.createElement('div');
-            container.innerHTML = modalHTML;
-            document.body.appendChild(container);
+            document.body.insertAdjacentHTML('afterbegin', modalHTML);
         }
     });
         observer.observe(document.documentElement, { childList: true, subtree: true });
