@@ -78,3 +78,7 @@ plugins:
 extra_footer_js:
   - https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js
   - assets/gitbook/minipen.js
+
+extra_header_js:
+- https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js
+- assets/gitbook/minipen.js
