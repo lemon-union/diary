@@ -1,5 +1,5 @@
 ---
-title: “解决密码”
+title: 「解决密码」
 author: 柠檬雪宝
 date: 2025-05-17
 category: Information
@@ -37,7 +37,7 @@ layout: post
    ```javascript
    document.getElementById('passwordModal').style.display = 'none';
    ```
-   或“想办法”添加User CSS：
+   或「想办法」添加User CSS：
    ```css
    #passwordModal {
       display: none;
@@ -53,7 +53,7 @@ layout: post
 
 ### 操作步骤
 - **浏览器扩展**：使用插件（如 NoScript）禁用所有JS
-- **开发者工具**：在Network面板勾选“Disable JavaScript”
+- **开发者工具**：在Network面板勾选「Disable JavaScript」
 - **命令行工具**：用 `curl` 或 `wget` 直接抓取HTML源码查看
 
 密码框不会被动态创建，内容直接显示
