@@ -76,5 +76,6 @@ plugins:
   - jemoji
 
 extra_header_js:
-- https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js
-- assets/gitbook/minipen.js
+  - https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js
+  - assets/gitbook/minipen.js
+  - assets/gitbook/auto-space.js
